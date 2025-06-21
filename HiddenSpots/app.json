@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Hidden Spots",
+    "slug": "hidden-spots",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to location to show nearby hidden spots and help you discover new places in Gwalior.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs access to location to show nearby hidden spots and help you discover new places in Gwalior.",
+        "NSCameraUsageDescription": "This app needs access to camera to take photos of hidden spots.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to photo library to select photos of hidden spots."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Hidden Spots to use your location to show nearby spots."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with hidden spots."
+        }
+      ]
+    ]
+  }
+} 
