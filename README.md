@@ -18,35 +18,35 @@ A full-stack mobile app built with **React Native (Expo)** for the frontend and 
 
 ## Project Structure
 HiddenSpots/
--│
--├── App.js
--├── app.json
--├── index.js
--├── package.json
--├── package-lock.json
--│
--├── assets/
--│    ├── adaptive-icon.png
--│    ├── favicon.png
--│    ├── icon.png
--│    └── splash.png
--│
--├── backend/
--│    ├── config/
--│    │   └── cloudinary.js
--│    ├── env.example
--│    ├── models/
--│    │   ├── Comment.js
--│    │   └── Spot.js
--│    ├── package.json
--│    ├── package-lock.json
--│    ├── routes/
--│    │   ├── comments.js
--│    │   └── spots.js
--│    ├── seed-data.js
--│    └── server.js
--│
--└── src/
+- │
+- ├── App.js
+- ├── app.json
+- ├── index.js
+- ├── package.json
+- ├── package-lock.json
+- │
+- ├── assets/
+- │    ├── adaptive-icon.png
+- │    ├── favicon.png
+- │    ├── icon.png
+- │    └── splash.png
+- │
+- ├── backend/
+- │    ├── config/
+- │    │   └── cloudinary.js
+- │    ├── env.example
+- │    ├── models/
+- │    │   ├── Comment.js
+- │    │   └── Spot.js
+- │    ├── package.json
+- │    ├── package-lock.json
+- │    ├── routes/
+- │    │   ├── comments.js
+- │    │   └── spots.js
+- │    ├── seed-data.js
+- │    └── server.js
+- │ 
+- └── src/
 -    ├── components/
 -    │   ├── CustomHeader.js
 -    │   ├── CustomTabBar.js
