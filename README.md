@@ -26,25 +26,25 @@ HiddenSpots/
 -├── package-lock.json
 -│
 -├── assets/
--│   -├── adaptive-icon.png
--│   -├── favicon.png
--│   -├── icon.png
--│   -└── splash.png
+-│    ├── adaptive-icon.png
+-│    ├── favicon.png
+-│    ├── icon.png
+-│    └── splash.png
 -│
 -├── backend/
--│   -├── config/
--│   -│   └── cloudinary.js
--│   -├── env.example
--│   -├── models/
--│   -│   ├── Comment.js
--│   -│   └── Spot.js
--│   -├── package.json
--│   -├── package-lock.json
--│   -├── routes/
--│   -│   ├── comments.js
--│   -│   └── spots.js
--│   -├── seed-data.js
--│   -└── server.js
+-│    ├── config/
+-│    │   └── cloudinary.js
+-│    ├── env.example
+-│    ├── models/
+-│    │   ├── Comment.js
+-│    │   └── Spot.js
+-│    ├── package.json
+-│    ├── package-lock.json
+-│    ├── routes/
+-│    │   ├── comments.js
+-│    │   └── spots.js
+-│    ├── seed-data.js
+-│    └── server.js
 -│
 -└── src/
 -    ├── components/
@@ -55,13 +55,13 @@ HiddenSpots/
 -    │   └── categories.js
 -    ├── screens/
 -    │   ├── AddSpotScreen.js
---      │   ├── FeedScreen.js
+-    │   ├── FeedScreen.js
 -    │   ├── HomeScreen.js
 -    │   ├── MapScreen.js
 -    │   ├── ProfileScreen.js
 -    │   └── SpotDetailScreen.js
 -    └── theme/
---           └── theme.js 
+--       └── theme.js 
 
 
 
