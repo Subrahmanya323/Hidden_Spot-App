@@ -61,7 +61,7 @@ HiddenSpots/
 -    │   ├── ProfileScreen.js
 -    │   └── SpotDetailScreen.js
 -    └── theme/
---       └── theme.js 
+         └── theme.js 
 
 
 
